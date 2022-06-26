@@ -1,0 +1,20 @@
+.checkout-left {
+  width: 70%;
+}
+
+.checkout-ad {
+}
+.checkout-ad > img {
+  height: 150px;
+  width: 100%;
+}
+.checkout-title {
+  border-bottom: 1px solid gray;
+  padding: 5px;
+}
+.checkout {
+  display: flex;
+  padding: 2%;
+  justify-content: space-between;
+  background-color: white;
+}

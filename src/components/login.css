@@ -1,0 +1,41 @@
+.login > img {
+  height: 50px;
+  width: 150px;
+  margin-left: 45%;
+}
+.login .container {
+  width: 350px;
+  border: 1px solid rgb(203, 203, 203);
+  margin: auto;
+  background-color: rgb(250, 250, 250);
+  padding: 10px;
+}
+
+.login {
+  background-color: white;
+  height: 100vh;
+}
+.login .container h1 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.login .container label {
+  font-weight: bold;
+  font-size: 14px;
+}
+.login .container input {
+  width: 90%;
+  height: 30px;
+}
+.login .container button {
+  width: 93%;
+  height: 30px;
+  margin-top: 15px;
+  background-color: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  outline: none;
+}
+.login .container p {
+  margin-top: 10px;
+  font-size: 10px;
+}

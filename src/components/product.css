@@ -1,0 +1,47 @@
+.product {
+  height: 350px;
+  width: 450px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: white !important;
+  z-index: 1;
+  padding: 15px 15px;
+  border-radius: 10px;
+  position: relative;
+  margin: 10px 0px;
+}
+
+.product:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.product-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height: 50%;
+}
+.product-image > img {
+  width: 70%;
+  height: 100%;
+}
+.add-basket {
+  display: flex;
+  justify-content: center;
+}
+.add-basket > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  margin-top: 15px;
+  width: 40%;
+  position: absolute;
+  height: 20px;
+  bottom: 18px;
+}
+.add-basket > div {
+  margin-top: 15px;
+
+  position: absolute;
+  height: 20px;
+  bottom: 18px;
+}
