@@ -28,10 +28,13 @@ function Login() {
         navigate("/");
       })
       .catch((err) => {
-        alert("No such User Found ");
+        alert("No such User Found Or Incorrect Password ");
 
         console.log(err);
       });
+
+    setemail("");
+    setpassword("");
   };
 
   const register = () => {
@@ -41,6 +44,7 @@ function Login() {
     }
     auth.createUserWithEmailAndPassword(email, password).then((auth) => {
       console.log(auth);
+      alert("Congratulations User Profile Created");
       db.collection("users").add({
         email: email,
         name: email,
@@ -48,6 +52,9 @@ function Login() {
         mobileNumber: "",
       });
     });
+
+    setemail("");
+    setpassword("");
   };
   return (
     <div className="login">
@@ -60,6 +67,7 @@ function Login() {
           <br></br>
           <input
             type="text"
+            value={email}
             onChange={(e) => setemail(e.target.value)}
             required
           ></input>
@@ -71,6 +79,7 @@ function Login() {
           <input
             type="password"
             required
+            value={password}
             onChange={(e) => setpassword(e.target.value)}
           ></input>
         </div>

@@ -15,6 +15,8 @@ function Product({ data, basket, doc }) {
 
   useEffect(() => {
     let arr = basket.basketItems;
+    //console.log(basket);
+    setIsBasket(false);
     arr.forEach((d1) => {
       if (d1.id == data.id) {
         setIsBasket(true);
@@ -22,9 +24,7 @@ function Product({ data, basket, doc }) {
         return;
       }
     });
-  }, [basket]);
-
-  // console.log(doc);
+  }, [basket.basketItems]);
 
   const addTobasket = () => {
     doc.ref

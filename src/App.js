@@ -16,6 +16,7 @@ import { userLogin } from "./actions/auth";
 import { connect, useDispatch } from "react-redux";
 import { addIntialBasket, addToBasket } from "./actions/action";
 import UserProfile from "./components/UserProfile";
+import Orders from "./components/Orders";
 
 function App(props) {
   const dispatch = useDispatch();
@@ -71,6 +72,7 @@ function App(props) {
         <Route path="/Checkout" element={<Checkout doc={doc} />}></Route>
         <Route path="/login" element={<Login />} />
         <Route path="/user" element={<UserProfile />} />
+        <Route path="/orders" element={<Orders doc={doc} />} />
       </Routes>
     </div>
   );

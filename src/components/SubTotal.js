@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./subtotal.css";
-function SubTotal({ data }) {
+function SubTotal({ data, setcheckoutPage }) {
   const [sum, setsum] = useState(0);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ function SubTotal({ data }) {
       </div>
 
       <div>
-        <button>Proceed to Checkout</button>
+        <button onClick={() => setcheckoutPage(1)}>Proceed to Checkout</button>
       </div>
     </div>
   );

@@ -34,11 +34,11 @@ function Headers(props) {
           </Link>
         )}
 
-        <div className="option2">
+        <Link className="option2" to="orders">
           <span style={{ fontSize: 10 }}>Returns </span>
           <br />
           <span>& Orders </span>
-        </div>
+        </Link>
         <div className="option3">
           <span style={{ fontSize: 10 }}>Your </span>
           <br />

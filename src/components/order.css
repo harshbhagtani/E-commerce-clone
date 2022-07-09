@@ -1,0 +1,41 @@
+.orders {
+}
+.orders .contain {
+  display: inline-block;
+  width: 800px;
+  padding: 10px;
+}
+
+.order-tile {
+  border: 1px solid rgb(186, 186, 186);
+  margin: 10px 0px;
+  padding: 5px;
+}
+.tile-header {
+  display: flex;
+
+  background-color: rgba(246, 195, 100, 0.5);
+  padding: 5px;
+}
+.tile-header > div {
+  margin-left: 20px;
+}
+.tile-content {
+  padding: 10px;
+  height: 200px;
+
+  display: flex;
+}
+.title-content-left {
+  width: 30%;
+  border: 1px solid black;
+  height: 80%;
+}
+.title-content-left img {
+  width: 100%;
+  height: 100%;
+}
+.title-content-right {
+  width: 60%;
+  margin-left: 20px;
+}

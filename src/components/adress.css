@@ -1,0 +1,21 @@
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+select {
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+.address-container > div {
+  margin: 10px 0px;
+}
+.adress {
+  padding: 10px;
+  margin-left: 100px;
+}
