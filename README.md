@@ -1,14 +1,20 @@
 Built an Amazon Clone using Reactjs for frontend and firebase for backend
 
 SIGN-IN PAGE
-![Screenshot (15)](https://user-images.githubusercontent.com/60362486/178117643-fa823a78-ca2d-4620-ae71-df12eeeb2fff.png)
+![Screenshot (15)](https://user-images.githubusercontent.com/60362486/178117910-99ce7b96-1b23-4cf3-b235-ac66a6c0fb46.png)
+
 
 Home-page
-![Screenshot (16)](https://user-images.githubusercontent.com/60362486/178117685-0f268ab5-6cda-42aa-8f2e-c2de8b7465e3.png)
+![Screenshot (16)](https://user-images.githubusercontent.com/60362486/178117915-8333b041-c7aa-4b75-a359-ed779c415727.png)
+
 
 Cart
-![Screenshot (17)](https://user-images.githubusercontent.com/60362486/178117721-ee220cce-788b-4ac3-9023-2b2dc3aac341.png)
-![Screenshot (20)](https://user-images.githubusercontent.com/60362486/178117760-ba28b25e-b781-423e-b0ef-710c95eb7097.png)
+![Screenshot (17)](https://user-images.githubusercontent.com/60362486/178117920-094e6cd4-0baa-4553-8ab1-05054647682f.png)
+![Screenshot (18)](https://user-images.githubusercontent.com/60362486/178117925-df2d891a-8c8d-4921-9bef-f4f814638754.png)
+![Screenshot (19)](https://user-images.githubusercontent.com/60362486/178117933-baa16446-0c46-4def-9139-fe3ea7533269.png)
+![Screenshot (20)](https://user-images.githubusercontent.com/60362486/178117937-96f914dd-f64f-4f16-9e0a-79868610e125.png)
+
 
 Orders page
-![Screenshot (21)](https://user-images.githubusercontent.com/60362486/178117776-dffe7b98-6c99-48f6-8a09-789ed93cc4a9.png)
+![Screenshot (21)](https://user-images.githubusercontent.com/60362486/178117944-b9dc2c05-5726-41b1-adeb-ccc9263e9509.png)
+
